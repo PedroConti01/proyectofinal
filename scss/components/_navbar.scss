@@ -1,0 +1,38 @@
+
+header {
+	display: flex;
+	min-height: 70px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	p{
+		text-decoration: underline;
+	    color: $secondary-color;
+	    font-size: 3rem;
+	}
+}
+.logo {
+	display: flex;
+	align-items: center;
+	img {
+		height: 100px;
+		margin-right: 10px;
+		border-radius: 100%;
+		border: 1px solid #000;
+	}
+}
+nav {
+	a {
+		font-weight: 600;
+		margin-right: 225px;
+		color: $secondary-color;
+		opacity: 0.5;
+		text-decoration: none;
+		font-size: 1.2rem;
+		&:hover {
+			color: $secondary-color;
+			opacity: 2;
+			transition: 0.3s;
+		}
+	}
+}
